@@ -157,7 +157,7 @@ func main() {
 			if err != nil {
 				log.Fatal(err)
 			}
-			if ok { // если ответ 200 то помещаем все в буфер
+			if ok { // если ответ 200 то выводим сообщение о том что данные записаны 
 				fmt.Println("Record saved successfully:", value)
 			}
 			mx.Unlock() // разблокируем mutex

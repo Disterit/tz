@@ -40,7 +40,7 @@ type Form struct {
 
 func init() {
 	// Чтение файла конфигурации
-	data, err := ioutil.ReadFile("config.yml")
+	data, err := ioutil.ReadFile("config.yaml")
 	if err != nil {
 		log.Fatalf("Error reading config file: %v", err)
 	}

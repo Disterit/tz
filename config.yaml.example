@@ -1,0 +1,3 @@
+token: "TOKEN"
+saveFormURL: "https://development.kpi-drive.ru/_api/facts/save_fact"
+getFormsURL: "https://development.kpi-drive.ru/_api/indicators/get_facts"
